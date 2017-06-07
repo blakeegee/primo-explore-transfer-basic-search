@@ -1,5 +1,5 @@
 # primo-explore-transfer-basic-search
-Transfer your Primo basic search query to WorldCat Discovery or Google Scholar
+Transfer your Primo Basic Search query to WorldCat Discovery or Google Scholar
 ## prerequisites:
 * this code is for the ExLibris product Primo Explore (aka, Primo New UI)
 * you will need to have downloaded your Primo UI Customization Package from the Primo Back Office
@@ -25,13 +25,13 @@ app.component('prmFacetRangeAfter', {
 
 ## what is does:
 * the controller locates the search query and splits it into its constituent elements
-** the search string is element [2]
+	* the search string is element [2]
 * the component inserts a link to Worldcat Discovery and Google Scholar into the facets panel
 ## notes:
 * this component is inserted immediately after the Date Range facet
-* you will need to replace the WorldCat Discovery link with one that is appropriate to your institution
+* you will need to replace the WorldCat Discovery base URL with one that is appropriate for your institution
 * this search transfer only works in Basic Search
-** the search query in Advanced Search is constructed differently
+	* the search query in Advanced Search is constructed differently
 * add the code snippet after the opening:
 
 ```javascript
