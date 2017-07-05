@@ -23,7 +23,7 @@ app.component('prmFacetRangeAfter', {
 });
 ```
 
-## what is does:
+## what it does:
 * the controller locates the search query and splits it into its constituent elements
 	* the search string is element [2]
 * the component inserts a link to Worldcat Discovery and Google Scholar into the facets panel
